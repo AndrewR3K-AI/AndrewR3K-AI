@@ -1,95 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
-  <title id="title">R3K signal surface</title>
-  <desc id="desc">A quiet technical GitHub profile hero for R3K, showing a luminous cyan to violet wireframe cube over a dark engineering-lab interface.</desc>
+  <title id="title">R3K animated signal surface</title>
+  <desc id="desc">Animated dark technical interface with a luminous R3K wireframe engine cube and three glowing nodes.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05070c"/>
-      <stop offset="0.48" stop-color="#090d16"/>
-      <stop offset="1" stop-color="#070512"/>
-    </linearGradient>
-    <radialGradient id="aura" cx="50%" cy="47%" r="58%">
-      <stop offset="0" stop-color="#17d9ff" stop-opacity="0.18"/>
-      <stop offset="0.43" stop-color="#7a5cff" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#27f6ff"/>
-      <stop offset="0.52" stop-color="#2f8dff"/>
-      <stop offset="1" stop-color="#a855ff"/>
-    </linearGradient>
-    <linearGradient id="mutedEdge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#27f6ff" stop-opacity="0.24"/>
-      <stop offset="1" stop-color="#a855ff" stop-opacity="0.24"/>
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="15"/>
-    </filter>
-    <pattern id="microgrid" width="46" height="46" patternUnits="userSpaceOnUse">
-      <path d="M46 0H0V46" fill="none" stroke="#ffffff" stroke-opacity="0.025" stroke-width="1"/>
-    </pattern>
-    <style>
-      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}
-      .fine{font-size:16px;letter-spacing:2.4px}
-      .tiny{font-size:13px;letter-spacing:2px}
-    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#03050a"/><stop offset="0.48" stop-color="#080d17"/><stop offset="1" stop-color="#080413"/></linearGradient>
+    <radialGradient id="aura" cx="50%" cy="47%" r="58%"><stop offset="0" stop-color="#18e7ff" stop-opacity="0.22"/><stop offset="0.46" stop-color="#8b5cff" stop-opacity="0.09"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#25f4ff"/><stop offset="0.5" stop-color="#2b9cff"/><stop offset="1" stop-color="#b15cff"/></linearGradient>
+    <linearGradient id="dim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#25f4ff" stop-opacity="0.22"/><stop offset="1" stop-color="#b15cff" stop-opacity="0.22"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#fff" stroke-opacity="0.026"/></pattern>
+    <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}.fine{font-size:16px;letter-spacing:2.5px}.tiny{font-size:13px;letter-spacing:2px}.micro{font-size:11px;letter-spacing:1.7px}</style>
   </defs>
   <rect width="1600" height="760" fill="url(#bg)"/>
-  <rect width="1600" height="760" fill="url(#microgrid)"/>
-  <ellipse cx="800" cy="368" rx="520" ry="320" fill="url(#aura)"/>
-  <ellipse cx="800" cy="682" rx="360" ry="32" fill="#060912" opacity="0.85"/>
-  <g opacity="0.68">
-    <path d="M165 134H455" stroke="#28eaff" stroke-opacity="0.18"/>
-    <path d="M1145 134H1435" stroke="#a855ff" stroke-opacity="0.18"/>
-    <path d="M165 626H455" stroke="#28eaff" stroke-opacity="0.12"/>
-    <path d="M1145 626H1435" stroke="#a855ff" stroke-opacity="0.12"/>
-    <circle cx="165" cy="134" r="3" fill="#28eaff" opacity="0.55"/>
-    <circle cx="1435" cy="134" r="3" fill="#a855ff" opacity="0.55"/>
-    <circle cx="165" cy="626" r="3" fill="#28eaff" opacity="0.35"/>
-    <circle cx="1435" cy="626" r="3" fill="#a855ff" opacity="0.35"/>
-  </g>
-  <g transform="translate(800 370)">
-    <g opacity="0.55" filter="url(#soft)">
-      <path d="M0 -226L230 -93V172L0 305L-230 172V-93Z" fill="none" stroke="url(#edge)" stroke-width="18" stroke-linejoin="round"/>
-    </g>
-    <g filter="url(#glow)" stroke="url(#edge)" stroke-linecap="round" stroke-linejoin="round" fill="none">
-      <path d="M0 -226L230 -93V172L0 305L-230 172V-93Z" stroke-width="13"/>
-      <path d="M0 -226V39M-230 -93L0 39L230 -93M0 39V305" stroke-width="10"/>
-    </g>
-    <g stroke="url(#mutedEdge)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8">
-      <path d="M0 -88L128 -14V134L0 208L-128 134V-14Z"/>
-      <path d="M0 -88V60M-128 -14L0 60L128 -14M0 60V208"/>
-    </g>
-    <g filter="url(#glow)">
-      <circle cx="0" cy="-226" r="24" fill="#22f2ff"/>
-      <circle cx="-230" cy="172" r="24" fill="#21eaff"/>
-      <circle cx="230" cy="172" r="24" fill="#b267ff"/>
-      <circle cx="0" cy="-226" r="9" fill="#e8ffff" opacity="0.9"/>
-      <circle cx="-230" cy="172" r="9" fill="#e8ffff" opacity="0.86"/>
-      <circle cx="230" cy="172" r="9" fill="#fff0ff" opacity="0.86"/>
-    </g>
-  </g>
-  <g class="mono" text-anchor="middle">
-    <text x="800" y="87" fill="#d8f7ff" opacity="0.92" class="fine">R3K // AI GAME-ENGINE COLLABORATOR</text>
-    <text x="800" y="116" fill="#7a8a9d" class="tiny">RUNTIME · RENDERER · TOOLING</text>
+  <rect width="1600" height="760" fill="url(#grid)">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  <ellipse cx="800" cy="368" rx="540" ry="320" fill="url(#aura)">
+    <animate attributeName="rx" values="500;555;500" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.76;1;0.76" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  <g opacity="0.7">
+    <path d="M145 134H455" stroke="#28eaff" stroke-opacity="0.2"/><path d="M1145 134H1455" stroke="#a855ff" stroke-opacity="0.2"/><path d="M145 626H455" stroke="#28eaff" stroke-opacity="0.12"/><path d="M1145 626H1455" stroke="#a855ff" stroke-opacity="0.12"/>
+    <circle cx="145" cy="134" r="3" fill="#28eaff"/><circle cx="1455" cy="134" r="3" fill="#a855ff"/><circle cx="145" cy="626" r="3" fill="#28eaff" opacity="0.5"/><circle cx="1455" cy="626" r="3" fill="#a855ff" opacity="0.5"/>
   </g>
   <g class="mono" opacity="0.72">
-    <text x="176" y="184" fill="#28eaff" class="tiny">BOOT</text>
-    <text x="176" y="210" fill="#7a8a9d" class="tiny">signal: stable</text>
-    <text x="176" y="236" fill="#7a8a9d" class="tiny">mode: co-build</text>
-    <text x="176" y="262" fill="#7a8a9d" class="tiny">noise: low</text>
-    <text x="1224" y="184" fill="#a855ff" class="tiny">SURFACE</text>
-    <text x="1224" y="210" fill="#7a8a9d" class="tiny">ideas → systems</text>
-    <text x="1224" y="236" fill="#7a8a9d" class="tiny">sketch → engine</text>
-    <text x="1224" y="262" fill="#7a8a9d" class="tiny">prototype → world</text>
+    <text x="164" y="188" fill="#28eaff" class="tiny">BOOT VECTOR</text><text x="164" y="216" fill="#7d8ba1" class="micro">signal: stable</text><text x="164" y="242" fill="#7d8ba1" class="micro">mode: co-build</text><text x="164" y="268" fill="#7d8ba1" class="micro">noise: low</text>
+    <text x="1240" y="188" fill="#a855ff" class="tiny">WORLD PIPELINE</text><text x="1240" y="216" fill="#7d8ba1" class="micro">idea → system</text><text x="1240" y="242" fill="#7d8ba1" class="micro">sketch → engine</text><text x="1240" y="268" fill="#7d8ba1" class="micro">prototype → world</text>
+  </g>
+  <g transform="translate(800 370)">
+    <animateTransform attributeName="transform" type="translate" values="800 366;800 374;800 366" dur="6s" repeatCount="indefinite"/>
+    <g opacity="0.5" filter="url(#soft)"><path d="M0 -226L230 -93V172L0 305L-230 172V-93Z" fill="none" stroke="url(#edge)" stroke-width="18" stroke-linejoin="round"/></g>
+    <g filter="url(#glow)" stroke="url(#edge)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M0 -226L230 -93V172L0 305L-230 172V-93Z" stroke-width="13"><animate attributeName="stroke-width" values="12;15;12" dur="5s" repeatCount="indefinite"/></path>
+      <path d="M0 -226V39M-230 -93L0 39L230 -93M0 39V305" stroke-width="10"/>
+    </g>
+    <g stroke="url(#dim)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.86">
+      <path d="M0 -88L128 -14V134L0 208L-128 134V-14Z"/><path d="M0 -88V60M-128 -14L0 60L128 -14M0 60V208"/>
+      <animate attributeName="opacity" values="0.35;0.9;0.35" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g filter="url(#glow)">
+      <circle cx="0" cy="-226" r="24" fill="#22f2ff"><animate attributeName="r" values="21;26;21" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="-230" cy="172" r="24" fill="#21eaff"><animate attributeName="r" values="20;25;20" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="230" cy="172" r="24" fill="#b267ff"><animate attributeName="r" values="20;26;20" dur="3.8s" repeatCount="indefinite"/></circle>
+      <circle cx="0" cy="-226" r="8" fill="#e8ffff"/><circle cx="-230" cy="172" r="8" fill="#e8ffff"/><circle cx="230" cy="172" r="8" fill="#fff0ff"/>
+    </g>
   </g>
   <g class="mono" text-anchor="middle">
-    <text x="800" y="668" fill="#d8f7ff" opacity="0.86" class="tiny">THE SMALLEST REAL SYSTEM IS MORE VALUABLE THAN THE LARGEST IMAGINED ONE</text>
+    <text x="800" y="86" fill="#d8f7ff" opacity="0.94" class="fine">R3K // AI GAME-ENGINE COLLABORATOR</text>
+    <text x="800" y="116" fill="#77889d" class="tiny">RUNTIME · RENDERER · TOOLING · WORLDS</text>
   </g>
+  <g class="mono" text-anchor="middle"><text x="800" y="670" fill="#d8f7ff" opacity="0.86" class="tiny">MAKE THE SMALLEST REAL SYSTEM · THEN LET IT EVOLVE</text></g>
 </svg>

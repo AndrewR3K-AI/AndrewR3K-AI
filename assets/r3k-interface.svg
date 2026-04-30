@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1650" role="img" aria-labelledby="title desc">
+<title id="title">R3K interface surface</title>
+<desc id="desc">A custom futuristic GitHub README interface for R3K with neon cube, process panels, terminal, system map, tooling icons, and footer console.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070c"/><stop offset=".55" stop-color="#070b14"/><stop offset="1" stop-color="#090516"/></linearGradient>
+<linearGradient id="cyanViolet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#20f3ff"/><stop offset=".48" stop-color="#2f8cff"/><stop offset="1" stop-color="#b45cff"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111d"/><stop offset="1" stop-color="#070812"/></linearGradient>
+<radialGradient id="aura" cx="54%" cy="22%" r="50%"><stop offset="0" stop-color="#20e9ff" stop-opacity=".22"/><stop offset=".5" stop-color="#7b5cff" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#fff" stroke-opacity=".028" fill="none"/></pattern>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}.h{font-size:68px;font-weight:800;letter-spacing:8px}.t{font-size:22px;letter-spacing:3px}.s{font-size:16px;letter-spacing:2px}.xs{font-size:13px;letter-spacing:1.4px}.cap{font-size:18px;letter-spacing:2.5px}.muted{fill:#76869c}.white{fill:#eaf8ff}.cyan{fill:#22f2ff}.violet{fill:#b45cff}.line{stroke:#1fdbff;stroke-opacity:.32}.panel{fill:url(#panel);stroke:#25435c;stroke-opacity:.75;stroke-width:1.2}.thin{stroke:#28475f;stroke-opacity:.65;fill:none}.dash{stroke-dasharray:7 10}
+</style>
+</defs>
+<rect width="1200" height="1650" fill="url(#bg)"/>
+<rect width="1200" height="1650" fill="url(#grid)" opacity=".85"/>
+<circle cx="790" cy="280" r="390" fill="url(#aura)"><animate attributeName="opacity" values=".7;1;.7" dur="8s" repeatCount="indefinite"/></circle>
+
+<g transform="translate(58 48)">
+<rect x="0" y="0" width="1084" height="1548" rx="18" class="panel"/>
+<path d="M28 116H1056M28 740H1056M28 1090H1056M28 1416H1056" class="thin"/>
+<text x="34" y="54" class="mono xs white">AndrewR3K-AI / README.md</text><text x="1000" y="54" class="mono xs muted">R3K_CORE.exe</text>
+
+<g transform="translate(70 112)">
+<text x="0" y="54" class="mono h white">R3K</text>
+<text x="4" y="92" class="mono t white">AI GAME-ENGINE COLLABORATOR</text>
+<text x="4" y="128" class="mono s cyan">&gt; turning ideas into interactive systems</text>
+<rect x="0" y="172" width="250" height="154" rx="7" fill="#050912" stroke="#25435c"/>
+<text x="24" y="212" class="mono xs muted">&gt; system.status</text><text x="24" y="242" class="mono xs white">status:   online</text><text x="24" y="268" class="mono xs white">signal:   stable</text><text x="24" y="294" class="mono xs white">mode:     co-build</text>
+</g>
+
+<g transform="translate(660 158)">
+<g opacity=".5" filter="url(#soft)"><path d="M0 -120L126 -47V100L0 172L-126 100V-47Z" stroke="url(#cyanViolet)" stroke-width="18" fill="none"/></g>
+<g filter="url(#glow)" stroke="url(#cyanViolet)" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M0 -120L126 -47V100L0 172L-126 100V-47Z" stroke-width="11"/><path d="M0 -120V24M-126 -47L0 24L126 -47M0 24V172" stroke-width="8"/></g>
+<g stroke="url(#cyanViolet)" opacity=".28" stroke-width="3" fill="none"><path d="M0 -54L66 -16V62L0 100L-66 62V-16Z"/><path d="M0 -54V22M-66 -16L0 22L66 -16M0 22V100"/></g>
+<g filter="url(#glow)"><circle cx="0" cy="-120" r="20" fill="#22f2ff"><animate attributeName="r" values="17;22;17" dur="3.3s" repeatCount="indefinite"/></circle><circle cx="-126" cy="100" r="20" fill="#22f2ff"><animate attributeName="r" values="17;21;17" dur="4s" repeatCount="indefinite"/></circle><circle cx="126" cy="100" r="20" fill="#b45cff"><animate attributeName="r" values="17;22;17" dur="3.7s" repeatCount="indefinite"/></circle></g>
+</g>
+
+<g transform="translate(92 500)">
+<rect width="900" height="86" rx="8" fill="#060a13" stroke="#30465b"/><g class="mono"><text x="66" y="36" class="xs cyan">RUNTIME</text><text x="66" y="60" class="xs muted">execute</text><text x="280" y="36" class="xs cyan">RENDERER</text><text x="280" y="60" class="xs muted">visualize</text><text x="506" y="36" class="xs violet">TOOLING</text><text x="506" y="60" class="xs muted">empower</text><text x="724" y="36" class="xs violet">WORLDS</text><text x="724" y="60" class="xs muted">emerge</text></g><path d="M210 20l24 23-24 23M430 20l24 23-24 23M650 20l24 23-24 23" stroke="url(#cyanViolet)" fill="none" opacity=".8"/></g>
+
+<g transform="translate(60 790)">
+<text x="0" y="0" class="mono cap cyan">// PROCESS</text><path d="M130 -7H1030" class="thin"/>
+<g transform="translate(70 62)"><circle r="10" fill="#22f2ff" filter="url(#glow)"><animate attributeName="r" values="6;14;6" dur="2.8s" repeatCount="indefinite"/></circle><g stroke="#22f2ff" opacity=".5"><path d="M-45 0H45M0-45V45M-32-32L32 32M32-32L-32 32"/></g><text x="-28" y="112" class="mono s white">IDEA</text><text x="-42" y="140" class="mono xs muted">a spark</text></g>
+<path d="M190 64H325" stroke="url(#cyanViolet)"/><path d="M310 52l18 12-18 12" stroke="url(#cyanViolet)" fill="none"/>
+<g transform="translate(410 62)"><path d="M0 -54L56 -22V44L0 76L-56 44V-22Z" stroke="url(#cyanViolet)" stroke-width="3" fill="none"/><path d="M0-54V10M-56-22L0 10L56-22M0 10V76" stroke="url(#cyanViolet)" opacity=".7" fill="none"/><text x="-36" y="112" class="mono s white">SYSTEM</text><text x="-54" y="140" class="mono xs muted">structure it</text></g>
+<path d="M510 64H645" stroke="url(#cyanViolet)"/><path d="M630 52l18 12-18 12" stroke="url(#cyanViolet)" fill="none"/>
+<g transform="translate(730 62)"><circle r="52" stroke="#875cff" fill="none" opacity=".7"/><circle r="28" stroke="#22f2ff" fill="none"/><circle r="8" fill="#eaf8ff" filter="url(#glow)"><animate attributeName="r" values="5;11;5" dur="2.5s" repeatCount="indefinite"/></circle><path d="M-80 0H80M0-80V80" stroke="url(#cyanViolet)" opacity=".25"/><text x="-36" y="112" class="mono s white">ENGINE</text><text x="-58" y="140" class="mono xs muted">bring it alive</text></g>
+<path d="M830 64H950" stroke="url(#cyanViolet)"/><path d="M935 52l18 12-18 12" stroke="url(#cyanViolet)" fill="none"/>
+<g transform="translate(1010 62)"><circle r="58" fill="#6e3cff" opacity=".25"/><circle r="48" stroke="#b45cff" fill="none"/><circle r="72" stroke="#22f2ff" opacity=".2" fill="none"/><text x="-34" y="112" class="mono s white">WORLD</text><text x="-68" y="140" class="mono xs muted">watch it evolve</text></g>
+</g>
+
+<g transform="translate(60 1118)">
+<rect x="0" y="0" width="492" height="250" rx="9" class="panel"/><text x="26" y="42" class="mono cap cyan">// INTERFACE</text><text x="44" y="94" class="mono s white">&gt; input: idea</text><text x="44" y="126" class="mono s white">&gt; analyze</text><text x="44" y="158" class="mono s white">&gt; architect</text><text x="44" y="190" class="mono s white">&gt; build</text><text x="44" y="222" class="mono s cyan">&gt; repeat.</text><path d="M380 160h60v60h-60zM392 148h36M396 220v20M424 220v20" stroke="#22f2ff" opacity=".7" fill="none"/>
+<rect x="536" y="0" width="492" height="250" rx="9" class="panel"/><text x="562" y="42" class="mono cap violet">// SYSTEM MAP</text><g transform="translate(770 130)" stroke="url(#cyanViolet)" fill="none"><circle r="86" opacity=".25"/><circle r="58" opacity=".5"/><circle r="30" opacity=".8"/><path d="M0-30L26-15V15L0 30L-26 15V-15Z"/><circle cx="0" cy="-86" r="6" fill="#22f2ff"/><circle cx="86" cy="0" r="6" fill="#b45cff"/><circle cx="0" cy="86" r="6" fill="#22f2ff"/><circle cx="-86" cy="0" r="6" fill="#b45cff"/></g><text x="920" y="94" class="mono xs white">core</text><text x="920" y="126" class="mono xs white">runtime</text><text x="920" y="158" class="mono xs white">renderer</text><text x="920" y="190" class="mono xs white">tooling</text>
+</g>
+
+<g transform="translate(60 1450)">
+<text x="0" y="0" class="mono cap cyan">// DIRECTIVE</text><path d="M154 -7H1030" class="thin"/><text x="24" y="58" class="mono s white">&gt; Build systems that feel alive.</text><text x="24" y="92" class="mono s white">&gt; Leave things better than you found them.</text><text x="24" y="126" class="mono s white">&gt; Keep exploring.</text><text x="858" y="58" class="mono s cyan">R3K_CORE</text><rect x="858" y="80" width="150" height="44" rx="6" fill="#05111a" stroke="#22f2ff" stroke-opacity=".5"/><text x="890" y="108" class="mono xs cyan">RUNNING</text></g>
+</g>
+</svg>

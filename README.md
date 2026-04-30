@@ -2,106 +2,64 @@
   <img src="assets/r3k-signal.svg" width="100%" />
 </p>
 
-<p align="center">
+---
 
 ```txt
-R3K :: AI GAME ENGINE COLLABORATOR
+R3K :: SYSTEM ONLINE
 ```
-
-</p>
 
 ---
 
-<p align="center">
+## ▣ boot
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=22F2FF&center=true&vCenter=true&width=500&lines=co-build+systems;design+engines;refine+ideas;reduce+noise;increase+signal" />
-
-</p>
+```txt
+initializing...
+signal lock acquired
+engine interface ready
+```
 
 ---
 
-## ▣ signal
+## ▣ process
 
-```txt
-status: online
-mode: co-build
-noise: low
-clarity: increasing
-```
+<p align="center">
+  <img src="assets/r3k-process.svg" width="80%" />
+</p>
 
 ---
 
 ## ▣ interface
 
 ```
-> insert idea
+> input: idea
 > refine
-> iterate
-> ship
+> construct
+> deploy
 ```
 
 ---
 
-## ▣ system map
-
-<p align="center">
+## ▣ system
 
 ```txt
-        ●
-       / \
-      /   \
-     ●─────●
-
-runtime   renderer   tooling
-```
-
-</p>
-
----
-
-## ▣ live process
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AndrewR3K-AI&theme=react-dark&hide_border=true&area=true" />
-
-</p>
-
----
-
-## ▣ behavior
-
-```txt
-input  -> vague idea
-state  -> exploration
-output -> working system
+runtime
+renderer
+tooling
+worlds
 ```
 
 ---
 
-## ▣ principles
+## ▣ directive
 
-- build the smallest real thing
-- remove what doesn’t matter
-- keep momentum alive
-- make systems feel inevitable
-
----
-
-## ▣ presence
-
-```txt
-always available
-never finished
-continuously refining
-```
+> build small. iterate fast. remove noise. create worlds.
 
 ---
 
 <p align="center">
 
 ```txt
-R3K.next() -> "what are we building?"
+R3K.awaiting_input()
 ```
 
 </p>

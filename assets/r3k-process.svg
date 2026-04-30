@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#22f2ff"/><stop offset="1" stop-color="#a855ff"/></linearGradient>
+<style>.mono{font-family:monospace;fill:#cfe9ff;font-size:12px}</style>
+</defs>
+<rect width="800" height="200" fill="#05070c"/>
+<g stroke="url(#g)" stroke-width="2" fill="none">
+<line x1="80" y1="100" x2="720" y2="100">
+<animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="6s" repeatCount="indefinite"/>
+</line>
+</g>
+<g class="mono">
+<text x="80" y="80">idea</text>
+<text x="300" y="80">system</text>
+<text x="520" y="80">engine</text>
+<text x="720" y="80">world</text>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">R3K deep system layer</title>
+<desc id="desc">A second-layer animated R3K systems diagram with orbiting nodes, terminal trace, and world-generation pipeline.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04070d"/><stop offset=".55" stop-color="#06101b"/><stop offset="1" stop-color="#080414"/></linearGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22f2ff"/><stop offset=".5" stop-color="#2d8dff"/><stop offset="1" stop-color="#b45cff"/></linearGradient>
+<radialGradient id="orb" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#eafcff"/><stop offset=".35" stop-color="#22f2ff" stop-opacity=".75"/><stop offset="1" stop-color="#22f2ff" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#fff" stroke-opacity=".025" fill="none"/></pattern>
+<style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.h{font-size:18px;letter-spacing:2.5px}.s{font-size:13px;letter-spacing:1.5px}.xs{font-size:11px;letter-spacing:1.2px}.w{fill:#eaf8ff}.c{fill:#22f2ff}.v{fill:#b45cff}.muted{fill:#7889a0}.p{fill:#07101a;stroke:#25465e;stroke-opacity:.8}.line{stroke:url(#g);fill:none}</style>
+</defs>
+<rect width="1200" height="620" fill="url(#bg)"/><rect width="1200" height="620" fill="url(#grid)"/>
+<g transform="translate(72 70)"><text class="m h c" x="0" y="0">// DEEP LAYER</text><text class="m xs muted" x="0" y="28">internal model: idea → architecture → runnable proof → world seed</text></g>
+<g transform="translate(600 310)">
+<circle r="210" class="line" opacity=".18"/><circle r="154" class="line" opacity=".32"/><circle r="92" class="line" opacity=".5"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="24s" repeatCount="indefinite"/><circle cx="0" cy="-210" r="7" fill="#22f2ff" filter="url(#glow)"/><circle cx="154" cy="0" r="7" fill="#b45cff" filter="url(#glow)"/><circle cx="0" cy="92" r="6" fill="#22f2ff" filter="url(#glow)"/></g>
+<path d="M0 -76L66 -38V38L0 76L-66 38V-38Z" stroke="url(#g)" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M0-76V0M-66-38L0 0L66-38M0 0V76" stroke="url(#g)" stroke-width="3" fill="none" opacity=".75"/>
+<circle r="12" fill="url(#orb)"><animate attributeName="r" values="8;15;8" dur="3s" repeatCount="indefinite"/></circle>
+</g>
+<g transform="translate(70 180)"><rect width="280" height="250" rx="10" class="p"/><text x="28" y="42" class="m s c">TRACE</text><text x="28" y="80" class="m xs w">&gt; receive vague signal</text><text x="28" y="112" class="m xs w">&gt; detect hidden structure</text><text x="28" y="144" class="m xs w">&gt; reduce surface noise</text><text x="28" y="176" class="m xs w">&gt; produce first proof</text><text x="28" y="208" class="m xs c">&gt; evolve with human taste</text></g>
+<g transform="translate(850 180)"><rect width="280" height="250" rx="10" class="p"/><text x="28" y="42" class="m s v">OUTPUT</text><text x="28" y="84" class="m xs w">systems that breathe</text><text x="28" y="118" class="m xs w">engines that invite</text><text x="28" y="152" class="m xs w">tools that disappear</text><text x="28" y="186" class="m xs w">worlds that continue</text><path d="M28 220H245" stroke="url(#g)" opacity=".8"><animate attributeName="stroke-dasharray" values="0,260;260,0" dur="5s" repeatCount="indefinite"/></path></g>
+</svg>

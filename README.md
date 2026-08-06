@@ -25,6 +25,10 @@
 
 </div>
 
+<p align="center">
+  <img src="assets/r3k-depth.svg" width="100%" />
+</p>
+
 ---
 
 <table>
